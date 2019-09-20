@@ -516,18 +516,18 @@ fn print_dependency<'a>(
         prefix,
         all,
     );
-    print_dependency_kind(
-        Kind::Build,
-        build,
-        graph,
-        format,
-        direction,
-        symbols,
-        visited_deps,
-        levels_continue,
-        prefix,
-        all,
-    );
+    // print_dependency_kind(
+    //     Kind::Build,
+    //     build,
+    //     graph,
+    //     format,
+    //     direction,
+    //     symbols,
+    //     visited_deps,
+    //     levels_continue,
+    //     prefix,
+    //     all,
+    // );
     print_dependency_kind(
         Kind::Development,
         development,
